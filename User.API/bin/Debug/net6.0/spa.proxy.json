@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "",
+"LaunchCommand": "",
+"WorkingDirectory": "C:\\Users\\Otthon\\studies\\Identity\\User\\User.API",
+"MaxTimeoutInSeconds": "120"
+}
+}
