@@ -91,9 +91,6 @@ Observação: Os parametros devem ser alterados de acordo com a sua configuraç�
  dotnet user-secrets set "EmailSettings:Port" "465"
 ```
 ```bash
- dotnet user-secrets set "EmailSettings:Port" "465"
-```
-```bash
  dotnet user-secrets set "EmailSettings:SmtpServer" "smtp.gmail.com"
 ```
 ```bash
