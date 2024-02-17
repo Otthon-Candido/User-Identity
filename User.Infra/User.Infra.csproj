@@ -31,11 +31,11 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\User.Domain\User.Domain.csproj" />
-    <ProjectReference Include="..\User.Service\User.Service.csproj" />
   </ItemGroup>
 
 </Project>

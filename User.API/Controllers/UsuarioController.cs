@@ -1,11 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using User.Domain.Models;
-using User.API.Business;
-using System.Text.Json;
-using System.Net.Http.Json;
-using System.Text.Json.Serialization;
-using System.Text.Json;
-using Microsoft.AspNetCore.Authorization;
+using User.Domain.Interfaces;
+using User.Infra.Exceptions;
 
 namespace User.API.Controllers
 {
@@ -20,22 +16,34 @@ namespace User.API.Controllers
         {
             _userBusiness = userBusiness;
         }
+
         [HttpPost("/register")]
         public IActionResult AddUser(UserCreateModel createUser)
         {
-
-            _userBusiness.AddUser(createUser);
-            return Ok();
-
+            var result = _userBusiness.AddUser(createUser);
+            if (result.StartsWith("Erro:"))
+            {
+                throw new BadRequestException(result);
+            }
+            else
+            {
+                return Ok(result);
+            }
         }
+
         [HttpPost("/login")]
         public IActionResult LoginAsync(LoginModel loginModel)
         {
-
             var result = _userBusiness.LoginAsync(loginModel);
-            string resultJson = JsonSerializer.Serialize(result);
-            return Ok(resultJson);
 
+            if (result.StartsWith("Erro:"))
+            {
+                throw new BadRequestException(result);
+            }
+            else
+            {
+                return Ok(result);
+            }
         }
 
         [HttpPost("/active")]
@@ -53,7 +61,6 @@ namespace User.API.Controllers
             _userBusiness.RequestPasswordReset(request);
             return Ok();
         }
-
 
         [HttpPost("/passwordReset")]
         public IActionResult PasswordReset(PasswordReset request)

@@ -1,12 +1,12 @@
 using User.Domain.Models;
 
-namespace User.API.Business
+namespace User.Domain.Interfaces
 {
 
-    public interface IUserBusiness
+    public interface IUserRepository
     {
 
-        public void AddUser(UserCreateModel createUser);
+        public void AddUserAsync(UserCreateModel createUser);
 
         public string LoginAsync(LoginModel loginModel);
 
@@ -16,7 +16,7 @@ namespace User.API.Business
 
         public void PasswordReset(PasswordReset request);
 
-        
+
 
     }
 

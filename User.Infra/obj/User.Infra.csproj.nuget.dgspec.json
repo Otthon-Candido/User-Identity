@@ -44,20 +44,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[11.5.2, )"
-            },
-            "MailKit": {
-              "target": "Package",
-              "version": "[2.14.0, )"
-            },
-            "MimeKit": {
-              "target": "Package",
-              "version": "[2.14.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -126,6 +112,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
             },
             "MailKit": {
               "target": "Package",

@@ -9,6 +9,7 @@
       "User.Infra/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "FluentValidation": "11.5.2",
           "MailKit": "2.14.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
           "Microsoft.EntityFrameworkCore": "6.0.14",
@@ -473,11 +474,6 @@
       "System.Text.Encodings.Web/4.7.2": {},
       "System.Text.Json/4.7.2": {},
       "User.Domain/1.0.0": {
-        "dependencies": {
-          "FluentValidation": "11.5.2",
-          "MailKit": "2.14.0",
-          "MimeKit": "2.14.0"
-        },
         "runtime": {
           "User.Domain.dll": {}
         }

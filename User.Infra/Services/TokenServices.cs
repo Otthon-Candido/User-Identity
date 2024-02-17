@@ -6,7 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using User.Domain.Models;
 
 
-namespace User.Service.Services
+namespace User.Infra.Services
 {
     public class TokenService
     {

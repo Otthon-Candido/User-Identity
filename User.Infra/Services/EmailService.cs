@@ -7,7 +7,7 @@ using MimeKit.Utils;
 using User.Domain.Models;
 using User.Infra.Exceptions;
 
-namespace User.Service.Services
+namespace User.Infra.Services
 {
 
     public class EmailService
@@ -39,8 +39,9 @@ namespace User.Service.Services
                 var messageEmail = BodyEmail(message, type);
                 SendEmailFinal(messageEmail);
             }
-            else{
-                  throw new BadRequestException("Erro ao enviar email para resetar senha");
+            else
+            {
+                throw new BadRequestException("Erro ao enviar email para resetar senha");
             }
 
         }
@@ -74,8 +75,10 @@ namespace User.Service.Services
 
             var messageEmail = new MimeMessage();
             var builder = new BodyBuilder();
+            var Recipient = new List<MailboxAddress>();
             messageEmail.From.Add(new MailboxAddress(_configuration["EmailSettings:From"]));
-            messageEmail.To.AddRange(message.Recipient);
+            Recipient.AddRange(message.Recipient.Select(d => new MailboxAddress(d)));
+            messageEmail.To.AddRange(Recipient);
             messageEmail.Subject = message.About;
             var image = builder.LinkedResources.Add(@"C:\Users\Otthon\dotNet.png");
             image.ContentId = MimeUtils.GenerateMessageId();

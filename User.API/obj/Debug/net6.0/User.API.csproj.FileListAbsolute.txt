@@ -144,7 +144,6 @@ C:\Users\Otthon\Identity\User-Identity\User.API\obj\Debug\net6.0\User.API.genrun
 C:\Users\Otthon\Identity\User-Identity\User.API\obj\Debug\net6.0\ref\User.API.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\appsettings.json
-C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\spa.proxy.json
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\User.API.exe
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\User.API.deps.json
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\User.API.runtimeconfig.json
@@ -153,16 +152,13 @@ C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\User.API.pdb
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\FluentValidation.dll
-C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\MailKit.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\Microsoft.AspNetCore.SpaProxy.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
@@ -192,7 +188,6 @@ C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\User.Infra.dll
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\User.Domain.pdb
 C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\User.Infra.pdb
 C:\Users\Otthon\studies\Identity\User\User.API\obj\Debug\net6.0\User.API.csproj.AssemblyReference.cache
-C:\Users\Otthon\studies\Identity\User\User.API\obj\Debug\net6.0\spa.proxy.json
 C:\Users\Otthon\studies\Identity\User\User.API\obj\Debug\net6.0\User.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Otthon\studies\Identity\User\User.API\obj\Debug\net6.0\User.API.AssemblyInfoInputs.cache
 C:\Users\Otthon\studies\Identity\User\User.API\obj\Debug\net6.0\User.API.AssemblyInfo.cs
@@ -213,3 +208,7 @@ C:\Users\Otthon\studies\Identity\User\User.API\obj\Debug\net6.0\refint\User.API.
 C:\Users\Otthon\studies\Identity\User\User.API\obj\Debug\net6.0\User.API.pdb
 C:\Users\Otthon\studies\Identity\User\User.API\obj\Debug\net6.0\User.API.genruntimeconfig.cache
 C:\Users\Otthon\studies\Identity\User\User.API\obj\Debug\net6.0\ref\User.API.dll
+C:\Users\Otthon\studies\Identity\User\User.API\obj\Debug\net6.0\User.API.sourcelink.json
+C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\spa.proxy.json
+C:\Users\Otthon\studies\Identity\User\User.API\bin\Debug\net6.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\Otthon\studies\Identity\User\User.API\obj\Debug\net6.0\spa.proxy.json

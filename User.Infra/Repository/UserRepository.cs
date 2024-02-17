@@ -1,10 +1,11 @@
 using System.Web;
 using AutoMapper;
 using Microsoft.AspNetCore.Identity;
+using User.Domain.Interfaces;
 using User.Domain.Models;
 using User.Infra.Entities;
 using User.Infra.Exceptions;
-using User.Service.Services;
+using User.Infra.Services;
 
 
 namespace User.Infra.Repository
@@ -123,7 +124,7 @@ namespace User.Infra.Repository
                 var resetPassword = _signInManager.UserManager.ResetPasswordAsync(identityUser, request.Token, request.Password).Result;
                 if (!resetPassword.Succeeded)
                 {
-                    throw new BadRequestException("Erro ao resetar usuário");
+                    throw new BadRequestException("Erro ao redefinir senha do usuário");
                 }
 
             }
