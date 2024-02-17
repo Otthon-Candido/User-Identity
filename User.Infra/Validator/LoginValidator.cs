@@ -20,5 +20,10 @@ namespace User.Infra.Validator
                 .MaximumLength(60).WithMessage("Senha deve conter no máximo 60 caracteres");
 
         }
+
+        public static explicit operator AbstractValidator<object>(LoginValidator v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
